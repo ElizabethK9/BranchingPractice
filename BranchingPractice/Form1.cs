@@ -6,5 +6,15 @@ namespace BranchingPractice
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnDisplayGreeting_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Hello {txtName.Text}");
+        }
     }
 }
