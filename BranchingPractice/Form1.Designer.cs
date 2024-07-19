@@ -28,34 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnDisplayGreeting = new Button();
+            BtnDisplayGreeting = new Button();
             txtName = new TextBox();
             SuspendLayout();
             // 
-            // btnDisplayGreeting
+            // BtnDisplayGreeting
             // 
-            btnDisplayGreeting.Location = new Point(91, 147);
-            btnDisplayGreeting.Name = "btnDisplayGreeting";
-            btnDisplayGreeting.Size = new Size(104, 23);
-            btnDisplayGreeting.TabIndex = 0;
-            btnDisplayGreeting.Text = "Display greeting";
-            btnDisplayGreeting.UseVisualStyleBackColor = true;
-            btnDisplayGreeting.Click += btnDisplayGreeting_Click;
+            BtnDisplayGreeting.Location = new Point(87, 126);
+            BtnDisplayGreeting.Name = "BtnDisplayGreeting";
+            BtnDisplayGreeting.Size = new Size(104, 44);
+            BtnDisplayGreeting.TabIndex = 0;
+            BtnDisplayGreeting.Text = "Display greeting";
+            BtnDisplayGreeting.UseVisualStyleBackColor = true;
+            BtnDisplayGreeting.Click += BtnDisplayGreeting_Click;
             // 
             // txtName
             // 
-            txtName.Location = new Point(91, 71);
+            txtName.Location = new Point(87, 71);
             txtName.Name = "txtName";
-            txtName.Size = new Size(100, 23);
+            txtName.Size = new Size(104, 23);
             txtName.TabIndex = 1;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(310, 240);
             Controls.Add(txtName);
-            Controls.Add(btnDisplayGreeting);
+            Controls.Add(BtnDisplayGreeting);
             Name = "Form1";
             Text = "Branching Practice";
             Load += Form1_Load;
@@ -65,7 +65,7 @@
 
         #endregion
 
-        private Button btnDisplayGreeting;
+        private Button BtnDisplayGreeting;
         private TextBox txtName;
     }
 }
